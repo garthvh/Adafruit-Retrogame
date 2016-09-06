@@ -131,7 +131,7 @@ struct {
 	{  24,     KEY_SPACE    }, // Select
 	{  16,     KEY_ENTER    }, // Start
 	{  18,     KEY_ESC      }, // Exit ROM PiTFT Button 1
-	{  22,     KEY_1        }, // PiTFT Button 2
+	{  17,     KEY_F1        }, // PiTFT Button 2
 	{  23,     KEY_2        }, // PiTFT Button 3
 	{  27,     KEY_3        }, // PiTFT Button 4
 #endif
