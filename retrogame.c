@@ -122,18 +122,16 @@ struct {
 #else
 	// For PiGRRL 2:
 	// Input   Output (from /usr/include/linux/input.h)
-	{  27,     KEY_LEFT     }, // Joystick (4 pins)
-	{  22,     KEY_RIGHT    },
-	{  10,     KEY_UP       },
-	{   9,     KEY_DOWN     },
-	{  26,     KEY_LEFTCTRL }, // A/Fire/jump/primary/RED
-	{  11,     KEY_LEFTALT  }, // B/Bomb/secondary/YELLOW
-	{  24,     KEY_SPACE    }, // Select
-	{  16,     KEY_ENTER    }, // Start
-	{  18,     KEY_ESC      }, // Exit ROM PiTFT Button 1
-	{  17,     KEY_F1        }, // PiTFT Button 2
-	{  23,     KEY_2        }, // PiTFT Button 3
-	{  27,     KEY_3        }, // PiTFT Button 4
+	{  27,     KEY_LEFT     	}, // Joystick (4 pins)
+	{  22,     KEY_RIGHT    	},
+	{  10,     KEY_UP       	},
+	{   9,     KEY_DOWN     	},
+	{  26,     KEY_LEFTCTRL 	}, // A/Fire/jump/primary/RED
+	{  11,     KEY_LEFTALT  	}, // B/Bomb/secondary/YELLOW
+	{  24,     KEY_SPACE    	}, // Select
+	{  16,     KEY_ENTER    	}, // Start
+	{  18,     KEY_PAGEDOWN      	}, // Left Shoulder
+	{  17,     KEY_PAGEUP        	}, // Right Shoulder
 #endif
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
