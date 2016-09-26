@@ -126,12 +126,14 @@ struct {
 	{  22,     KEY_RIGHT    	},
 	{  10,     KEY_UP       	},
 	{   9,     KEY_DOWN     	},
-	{  26,     KEY_LEFTCTRL 	}, // A/Fire/jump/primary/RED
-	{  11,     KEY_LEFTALT  	}, // B/Bomb/secondary/YELLOW
-	{  24,     KEY_SPACE    	}, // Select
-	{  16,     KEY_ENTER    	}, // Start
-	{  18,     KEY_PAGEDOWN      	}, // Left Shoulder
-	{  17,     KEY_PAGEUP        	}, // Right Shoulder
+	{  26,     KEY_LEFTCTRL 	}, // A / RED
+	{  11,     KEY_LEFTALT  	}, // B / YELLOW
+	{  24,     KEY_Z         	}, // X / BLUE   
+	{  16,     KEY_X        	}, // Y / GREEN 
+	{   5,     KEY_SPACE    	}, // SELECT / RED
+	{   6,     KEY_ENTER    	}, // START / RED
+	{  18,     KEY_PAGEDOWN      	}, // LEFT SHOULDER / PAGE UP / BLACK
+	{  17,     KEY_PAGEUP        	}, // RIGHT SHOULDER / PAGE DOWN / BLACK
 #endif
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
